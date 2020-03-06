@@ -10,6 +10,6 @@ def map(source_array)
   return values
 end
 
-def reduce(source_array)
-  
+def reduce(source_array, starting_value = 0)
+  while starting_value < 
 end
