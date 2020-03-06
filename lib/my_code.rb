@@ -13,7 +13,7 @@ end
 def reduce(source_array, starting_value = 0)
   i = 0 
   while i < source_array.length
-    starting_value.memo()
+    starting_value = yield(starting_value, )
     i += 1 
   end
   
