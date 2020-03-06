@@ -10,3 +10,5 @@ def map(source_array) do
   yield(negative_values)
   return negative_values
 end
+
+map(array) {|n| n * -1}
