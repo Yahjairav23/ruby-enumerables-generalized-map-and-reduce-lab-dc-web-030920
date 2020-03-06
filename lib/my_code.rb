@@ -10,6 +10,6 @@ def map(source_array)
   return values
 end
 
-def reduce
+def reduce(source_array)
   
 end
