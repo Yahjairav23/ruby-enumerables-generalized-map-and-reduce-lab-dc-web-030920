@@ -1,9 +1,10 @@
 # Your Code Here
 
-def map(source_array) do
+def map(source_array) 
   negative_values = []
   i = 0 
   while i < source_array.length do
+    yield(arr)
     negative_values << source_array[i] * -1
     i += 1 
   end
