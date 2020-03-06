@@ -4,8 +4,8 @@ def map(source_array)
   negative_values = []
   i = 0 
   while i < source_array.length do
-    yield(arr)
-    negative_values << source_array[i] * -1
+    negative_values.push(yield(source_array[1]))
+    
     i += 1 
   end
   yield(negative_values)
